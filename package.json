@@ -1,6 +1,6 @@
 {
   "name": "@anio-fs/mkdirp",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Make a directory with parents.",
   "main": "./dist/package.min.mjs",
   "typings": "./dist/index.d.ts",
