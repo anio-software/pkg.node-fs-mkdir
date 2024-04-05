@@ -1,8 +1,9 @@
 import {generateFromTemplate} from "vipen/autogenerate"
 
 const asyncToSync = {
+	"import {mkdir} from \"@anio-fs/api/async\"": "import {mkdir} from \"@anio-fs/api/sync\"",
 	"export default async function(": "export default function(",
-	"await fs_object.mkdir": "fs_object.mkdir"
+	"await mkdir": "mkdir"
 }
 
 export default {

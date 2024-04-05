@@ -1,4 +1,6 @@
-export default async function(fs_object, path, mode) {
+import {mkdir} from "@anio-fs/api/async"
+
+export default async function(path, mode) {
 	let options = {
 		recursive: true
 	}
@@ -7,5 +9,5 @@ export default async function(fs_object, path, mode) {
 		options.mode = mode
 	}
 
-	await fs_object.mkdir(path, options)
+	await mkdir(path, options)
 }

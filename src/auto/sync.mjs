@@ -1,4 +1,6 @@
-export default function(fs_object, path, mode) {
+import {mkdir} from "@anio-fs/api/sync"
+
+export default function(path, mode) {
 	let options = {
 		recursive: true
 	}
@@ -7,5 +9,5 @@ export default function(fs_object, path, mode) {
 		options.mode = mode
 	}
 
-	fs_object.mkdir(path, options)
+	mkdir(path, options)
 }
