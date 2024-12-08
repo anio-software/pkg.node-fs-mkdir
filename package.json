@@ -1,5 +1,5 @@
 {
-  "name": "@anio-fs/mkdirp",
+  "name": "@aniojs/node-fs-mkdirp",
   "version": "0.0.0",
   "author": "Anio Software <info@anio.software>",
   "description": "Make a directory with parents.",
@@ -7,7 +7,7 @@
   "exports": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anio-fs-org/mkdirp.git"
+    "url": "git+https://github.com/aniojs-org/node-fs-mkdirp.git"
   },
   "type": "module",
   "devDependencies": {
