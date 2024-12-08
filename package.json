@@ -12,8 +12,9 @@
   },
   "devDependencies": {
     "@anio-fs/api": "^6.0.2",
-    "@fourtune/realm-js": "^0.1.0",
-    "fourtune": "^0.0.1"
+    "@fourtune/core": "^0.1101.0",
+    "@fourtune/realm-js": "^0.30000.3",
+    "fourtune": "^0.30000.0"
   },
   "scripts": {
     "prepare": "./node_modules/.bin/fourtune ."
