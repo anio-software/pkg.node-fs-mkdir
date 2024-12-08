@@ -9,6 +9,7 @@
     "type": "git",
     "url": "git+https://github.com/anio-fs-org/mkdirp.git"
   },
+  "type": "module",
   "devDependencies": {
     "@aniojs-private/node-async-sync-fs": "^0.2.0",
     "@fourtune/core": "^0.1101.0",
