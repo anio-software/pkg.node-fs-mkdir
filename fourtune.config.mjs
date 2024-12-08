@@ -1,6 +1,10 @@
 export default {
 	realm: {
 		name: "js",
-		type: "package"
+		type: "package",
+
+		options: {
+			runtime: "node"
+		}
 	}
 }
