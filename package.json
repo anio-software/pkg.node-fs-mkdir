@@ -1,10 +1,8 @@
 {
   "name": "@anio-fs/mkdirp",
   "version": "2.0.0",
-  "description": "Make a directory with parents.",
-  "main": "./dist/package.min.mjs",
-  "typings": "./dist/index.d.ts",
   "author": "Anio Software <info@anio.software>",
+  "description": "Make a directory with parents.",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -21,5 +19,7 @@
   },
   "files": [
     "./dist/"
-  ]
+  ],
+  "main": "./dist/package.min.mjs",
+  "typings": "./dist/index.d.ts"
 }
