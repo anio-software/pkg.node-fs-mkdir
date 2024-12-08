@@ -11,7 +11,6 @@
     "url": "git+https://github.com/anio-fs-org/mkdirp.git"
   },
   "devDependencies": {
-    "@anio-fs/api": "^6.0.2",
     "@fourtune/core": "^0.1101.0",
     "@fourtune/realm-js": "^0.30000.3",
     "fourtune": "^0.30000.0"
