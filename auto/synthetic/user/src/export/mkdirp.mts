@@ -9,6 +9,6 @@ import {mkdirpFactory as factory} from "#~synthetic/user/export/mkdirpFactory.mt
 
 const fn = factory(createContext())
 
-export async function mkdirp(path: string, mode: number) : Promise<undefined> {
+export async function mkdirp(path: string, mode?: number) : Promise<undefined> {
 	return await fn(path, mode)
 }

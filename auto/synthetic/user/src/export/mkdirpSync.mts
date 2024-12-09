@@ -8,6 +8,6 @@ import {mkdirpSyncFactory as factory} from "#~synthetic/user/export/mkdirpSyncFa
 
 const fn = factory(createContext())
 
-export function mkdirpSync(path: string, mode: number) : undefined {
+export function mkdirpSync(path: string, mode?: number) : undefined {
 	return fn(path, mode)
 }

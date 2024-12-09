@@ -9,7 +9,7 @@ import {getProject} from "@fourtune/realm-js/v0/project"
 
 declare function mkdirp(
 	path: string,
-	mode: number
+	mode?: number
 ) : Promise<undefined>
 
 /**
@@ -36,7 +36,7 @@ export function mkdirpFactory(context: RuntimeWrappedContextInstance) : typeof m
 		}
 	}
 
-	return async function mkdirp(path: string, mode: number) : Promise<undefined> {
+	return async function mkdirp(path: string, mode?: number) : Promise<undefined> {
 		return await implementation(local_context, path, mode)
 	}
 }

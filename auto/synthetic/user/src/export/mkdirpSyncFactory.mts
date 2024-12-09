@@ -8,7 +8,7 @@ import {getProject} from "@fourtune/realm-js/v0/project"
 
 declare function mkdirpSync(
 	path: string,
-	mode: number
+	mode?: number
 ) : undefined
 
 /**
@@ -35,7 +35,7 @@ export function mkdirpSyncFactory(context: RuntimeWrappedContextInstance) : type
 		}
 	}
 
-	return function mkdirpSync(path: string, mode: number) : undefined {
+	return function mkdirpSync(path: string, mode?: number) : undefined {
 		return implementation(local_context, path, mode)
 	}
 }
