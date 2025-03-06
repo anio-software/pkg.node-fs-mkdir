@@ -7,8 +7,10 @@ import {createContext} from "@fourtune/realm-js/v0/runtime"
 
 import {mkdirpFactory as factory} from "#~synthetic/user/export/mkdirpFactory.mts"
 
-const fn = factory(createContext())
+let __fnImplementation: any = null
 
 export async function mkdirp(path: string, mode?: number) : Promise<undefined> {
-	return await fn(path, mode)
+	if (__fnImplementation === null) __fnImplementation = factory(createContext());
+
+	return await __fnImplementation(path, mode)
 }
