@@ -1,4 +1,6 @@
 # This file is automatically managed by enkore
 # DO NOT ADD ENTRIES HERE, THEY WILL BE REMOVED
+/src/MakeDirectoryCommonOptions.ts
+/src/MakeDirectorySyncCommonOptions.ts
 /src/MakeDirectoryOptions.ts
 /src/MakeDirectorySyncOptions.ts
