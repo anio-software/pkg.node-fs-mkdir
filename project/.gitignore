@@ -10,3 +10,11 @@
 /src/mkdirSync.ts
 /src/mkdirp.ts
 /src/mkdirpSync.ts
+/export/mkdirFactory.ts
+/export/mkdir.ts
+/export/mkdirSyncFactory.ts
+/export/mkdirSync.ts
+/export/mkdirpFactory.ts
+/export/mkdirp.ts
+/export/mkdirpSyncFactory.ts
+/export/mkdirpSync.ts
