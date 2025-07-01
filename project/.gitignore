@@ -6,3 +6,7 @@
 /src/MakeDirectorySyncCommonOptions.ts
 /src/MakeDirectoryOptions.ts
 /src/MakeDirectorySyncOptions.ts
+/src/mkdir.ts
+/src/mkdirSync.ts
+/src/mkdirp.ts
+/src/mkdirpSync.ts
