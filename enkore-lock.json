@@ -22,6 +22,12 @@
         "project/src/MakeDirectorySyncOptions.ts": {
             "hash": "035943d32d83740426f7742fc9cc37cea791512c849ef9c0f66821fbd386e7ed"
         },
+        "project/src/internalImplementation.ts": {
+            "hash": "19253fb99802a42a9299e655cfc20c167ad38caf5b4295708c0c419c79169ea0"
+        },
+        "project/src/internalImplementationSync.ts": {
+            "hash": "71ca875172b4361682066f641ff37fe3a722bc0cd55a76dd35aa6fcca37efb4b"
+        },
         "project/src/mkdir.ts": {
             "hash": "4fd8672cebd1283e98e3e2449712633eeb09b42ef481badbfa9fdeb92967a163"
         },
