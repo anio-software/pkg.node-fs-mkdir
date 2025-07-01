@@ -21,16 +21,20 @@ export async function __implementation(
 ): Promise<boolean> {
 //>): boolean {
 	const context = createContext(contextOptions, 0)
+	const recurse = options.recursive === true
 
 	try {
 		const modeToUse = isNumber(options.mode) ? options.mode : 0o755
 
-		context.log.debug(`creating directory '${pathToCreate}' with mode '0o${modeToUse.toString(8)}'`)
+		context.log.debug(
+			`creating directory '${pathToCreate}' with mode '0o${modeToUse.toString(8)}'` +
+			` and recursion set to '${recurse ? "yes" : "no"}'`
+		)
 
 		await mkdir(pathToCreate, {
 //>		mkdir(pathToCreate, {
 			mode: modeToUse,
-			recursive: options.recursive === true
+			recursive: recurse
 		})
 
 		return true
