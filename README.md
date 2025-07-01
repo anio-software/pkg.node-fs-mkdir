@@ -1,9 +1,3 @@
-# @aniojs/node-fs-mkdirp
+# @anio-software/pkg.node-fs-mkdir
 
-Make a directory with parents.
-
-```js
-import {mkdirp, mkdirpSync} from "@aniojs/node-fs-mkdirp"
-
-await mkdirp("./dir/with/many/sub/dirs/")
-```
+Make directory.
