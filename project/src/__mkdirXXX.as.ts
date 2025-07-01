@@ -1,7 +1,4 @@
-import {
-	type EnkoreJSRuntimeContextOptions,
-	createContext
-} from "@anio-software/enkore.js-runtime"
+import type {EnkoreJSRuntimeContextOptions} from "@anio-software/enkore.js-runtime"
 
 import type {MakeDirectoryOptions as Options} from "#~export/MakeDirectoryOptions.ts"
 //>import type {MakeDirectorySyncOptions as Options} from "#~export/MakeDirectorySyncOptions.ts"
