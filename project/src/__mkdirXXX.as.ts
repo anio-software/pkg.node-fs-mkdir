@@ -19,7 +19,7 @@ export async function __implementation(
 		pathToCreate,
 		{
 			mode: options?.mode,
-			recursive: false
+			recursive: options?.recursive === true
 		}
 	)
 }
