@@ -1,17 +1,17 @@
 # This file is automatically managed by enkore
 # DO NOT ADD ENTRIES HERE, THEY WILL BE REMOVED
-/src/MakeDirectoryPOptions.ts
-/src/MakeDirectoryPSyncOptions.ts
 /src/MakeDirectoryCommonOptions.ts
 /src/MakeDirectorySyncCommonOptions.ts
-/src/MakeDirectoryOptions.ts
-/src/MakeDirectorySyncOptions.ts
 /src/internalImplementation.ts
 /src/internalImplementationSync.ts
-/src/mkdir.ts
-/src/mkdirSync.ts
+/src/MakeDirectoryPOptions.ts
+/src/MakeDirectoryPSyncOptions.ts
 /src/mkdirp.ts
 /src/mkdirpSync.ts
+/src/MakeDirectoryOptions.ts
+/src/MakeDirectorySyncOptions.ts
+/src/mkdir.ts
+/src/mkdirSync.ts
 /export/mkdirFactory.ts
 /export/mkdir.ts
 /export/mkdirSyncFactory.ts
