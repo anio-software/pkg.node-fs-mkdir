@@ -16,6 +16,6 @@
     "@anio-software/enkore.target-js-node": "^0.0.369",
     "@anio-software/pkg-private.node-consistent-fs": "^0.0.4",
     "@anio-software/pkg.is": "^0.0.3",
-    "@anio-software/pkg.js-utils": "^0.0.3"
+    "@anio-software/pkg.js-utils": "^0.0.4"
   }
 }
